@@ -5,8 +5,6 @@ import matplotlib.animation as animation
 
 fig, ax = plt.subplots()
 
-pi = 3.1415
-
 
 x = np.linspace(0, 4*np.pi, 500)
 t = np.linspace(0, 2, 200)
@@ -47,7 +45,6 @@ welle3 = Welle(-0.5, 2.3, np.pi)
 welle4 = Welle(4, 5, 0.2, 90)
 
 wellen = [welle1, welle2]
-plots = []
 
 plot = wellenaddieren()
 print(plot)
